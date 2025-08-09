@@ -40,43 +40,54 @@ CREATE TABLE grades (
     enrollment_id INTEGER REFERENCES enrollments(id),
     grade CHAR(2),
 
-## 2️⃣ Ensure
-- **Data types** and **constraints** are accurately reflected from the SQL schema.  
-- Correctly implement **relationships** such as:
-  - `ForeignKey`
-  - `OneToMany`
-  - `ManyToMany`
-- Enforce constraints like:
-  - `UNIQUE`
-  - `NOT NULL`
+2️⃣ Ensure
+Data types and constraints are accurately reflected from the SQL schema.
 
----
+Correctly implement relationships such as:
 
-## 3️⃣ Implement CRUD Operations
-- Add a new **student**
-- Enroll a student in a **course**
-- Assign a **grade**
-- Get **all students** in a course
-- Get **all courses** for an instructor
+ForeignKey
 
----
+OneToMany
 
-## 4️⃣ Bonus
-- Ensure `OneToMany` and `ManyToMany` relationships are implemented correctly  
-- Implement `__str__()` methods for each model for **pretty printing**  
-- Add **validation logic** (e.g., prevent duplicate enrollments manually)  
-- Provide **3 example inserts** for:
-  - Students  
-  - Instructors  
-  - Courses  
-  - Enrollments  
-  - Grades
+ManyToMany
 
----
+Enforce constraints like:
 
-## 📦 Deliverables
-- Python ORM code for **all five tables**  
-- Database **initialization script**
+UNIQUE
 
-    graded_on DATE
-);
+NOT NULL
+
+3️⃣ Implement CRUD Operations
+Add a new student
+
+Enroll a student in a course
+
+Assign a grade
+
+Get all students in a course
+
+Get all courses for an instructor
+
+4️⃣ Bonus
+Ensure OneToMany and ManyToMany relationships are implemented correctly
+
+Implement __str__() methods for each model for pretty printing
+
+Add validation logic (e.g., prevent duplicate enrollments manually)
+
+Provide 3 example inserts for:
+
+Students
+
+Instructors
+
+Courses
+
+Enrollments
+
+Grades
+
+📦 Deliverables
+Python ORM code for all five tables
+
+Database initialization script
