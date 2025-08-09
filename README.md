@@ -1,6 +1,6 @@
 # Task-3_Classera
 Convert SQL Schema to Python ORM Models (LMS System)
-# 🏫 Task 3: Convert SQL Schema to Python ORM Models (LMS System)
+# 🏫 Convert SQL Schema to Python ORM Models (LMS System)
 ---
 
 ## 📘 Part 1: SQL Schema  
